@@ -1,4 +1,5 @@
 import ConverterWrapper from "./components/ConverterWrapper";
+import DetailsContainer from "./components/DetailsContainer";
 
 function HistoryPage() {
 	return (
@@ -8,6 +9,7 @@ function HistoryPage() {
 		>
 			<ConverterWrapper/>
 			{/* Desktop - History - Default content will go here */}
+			<DetailsContainer />
 		</section>
 	)
 }
